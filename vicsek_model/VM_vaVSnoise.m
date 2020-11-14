@@ -1,11 +1,4 @@
-%%PHY8005 | Module 1 | Agent Based Modelling 
-%%Workshop 2 | Question 2-1
-%%Nikolina Sarcevic
-%%n.sarcevic2@newcastle.ac.uk
-%%student number 200611321
-%%based on Tsuyoshi Hirashima (2020). Vicsek Model Simulation (https://www.mathworks.com/matlabcentral/fileexchange/64208-vicsek-model-simulation), MATLAB Central File Exchange. Retrieved November 10, 2020.
 
-%%-----------------------------------------------------------------------%%
 % Setting up simulation parameters:
 n_particles = 200; % number of particles
 t_max = 100; % duration
