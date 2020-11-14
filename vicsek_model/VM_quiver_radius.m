@@ -1,9 +1,4 @@
-%%PHY8005 | Module 1 | Agent Based Modelling 
-%%Workshop 2 | Question 2-2
-%%Nikolina Sarcevic
-%%n.sarcevic2@newcastle.ac.uk
-%%student number 200611321
-%%-------------------------------------------------------------------------
+
 
 % Setting up simulation parameters:
 n_particles = 200; % number of particles
