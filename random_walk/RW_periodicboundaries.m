@@ -1,10 +1,4 @@
-%%PHY8005 | Module 1 | Agent Based Modelling 
-%%PHY8005 | Module 1 | Agent Based Modelling 
-%%Workshop 1 | Question 1-3
-%%Nikolina Sarcevic
-%%n.sarcevic2@newcastle.ac.uk
-%%student number 200611321
-%%-------------------------------------------------------------------------
+
 
 %Setting up variables:
 %n_particles = input("Number of Particles (insert number) = "); %number of particles
