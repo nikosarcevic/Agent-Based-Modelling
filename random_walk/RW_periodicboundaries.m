@@ -41,18 +41,17 @@ for i = 1:n_particles
         if abs(position(1, i, j)) > per_bound %x coord when x>boundary
             if position(1, i, j) < 0 %less than zero case
                position(1, i, j) = position(1, i, j) + 2 * per_bound;
-             elseif position(1, i, j) > 0 %greater than zero case
-                    position(1, i, j) = position(1, i, j) - 2 * per_bound;
-                end
-             elseif abs(position(2, i,j )) > per_bound %y coord when y>boundary
-                 if position(2, i, j) < 0 %less than zero case
-                    position(2, i, j) = position(2, i, j) + 2 * per_bound;
-                elseif position(2, i, j) > 0 %greater than zero case
-                    position(2, i, j) = position(2, i, j) - 2 * per_bound;
-                end
-            else
+            elseif position(1, i, j) > 0 %greater than zero case
+                   position(1, i, j) = position(1, i, j) - 2 * per_bound;
             end
-        end    
+        elseif abs(position(2, i,j )) > per_bound %y coord when y>boundary
+            if position(2, i, j) < 0 %less than zero case
+               position(2, i, j) = position(2, i, j) + 2 * per_bound;
+            elseif position(2, i, j) > 0 %greater than zero case
+                   position(2, i, j) = position(2, i, j) - 2 * per_bound;
+            end
+        end
+    end    
 end
 
 %Plot
